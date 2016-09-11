@@ -1,0 +1,70 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .logotype { float:none; margin-bottom: 20px; }
+    .header-navigation { float: none; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header-text { float: none; margin-bottom: 30px; }
+    .social { float: none; }
+    .social-butts a { margin-bottom: 8px; }
+    nav ul li { margin-bottom: 5px; }
+    footer .col-sm-3 { margin-bottom: 30px; }
+    .footer-rights, .footer-menu { float: none; margin-bottom: 10px; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .menu-button { display: block; }
+    .header-navigation ul { display: none; }
+    nav ul li { display: block; margin-right: 0; margin-top: 8px;}
+    .logotype { text-align: center; }
+    .logotype a { float: none; display: block; }
+    .logotype span { padding-left: 0; }
+    .social { text-align: center; }
+    
+    .sb-search { min-width: 48px; height: 48px; }
+    .sb-search-input { height: 48px; }
+    .sb-icon-search, .sb-search-submit { width: 48px; height: 48px; }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
